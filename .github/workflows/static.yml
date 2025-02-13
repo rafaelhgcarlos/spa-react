@@ -52,12 +52,6 @@ jobs:
           name: artifact-name
           path: ./path-to-artifact
 
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: artifact-name
-          path: ./path-to-download
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
