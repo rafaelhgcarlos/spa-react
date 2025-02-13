@@ -44,13 +44,13 @@ header {
   padding: 10px 30px;
   border-radius: 20px;
   border: none;
-  background-color: rgb(115, 69, 153);
+  background-color: rgb(52, 150, 241);
   color: white;
   cursor: pointer;
 }
 
 #bt-signup:hover {
-  background-color: rgb(80, 48, 110);
+  background-color: rgb(0, 114, 255);
 }
 
 #bt-login {
@@ -61,5 +61,158 @@ header {
 }
 
 #bt-login:hover {
+  text-decoration: underline;
+}
+
+.slogan {
+  padding: 20px;
+  height: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slogan h1 {
+  font-family: "Marcellus", serif;
+  margin-top: 70px;
+  font-size: 70px;
+}
+
+.slogan p {
+  margin-top: 60px;
+  font-size: 15px;
+}
+
+.buttons {
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+}
+
+#bt-trial {
+  font-size: medium;
+  padding: 20px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(52, 150, 241);
+  color: white;
+  cursor: pointer;
+}
+
+#bt-trial:hover {
+  background-color: rgb(0, 114, 255);
+}
+
+#bt-demo {
+  font-size: medium;
+  padding: 20px 30px;
+  border-radius: 30px;
+  border: 1px solid rgb(52, 150, 241);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#bt-demo:hover {
+  background-color: rgb(52, 150, 241);
+  color: white;
+}
+
+.slogan img {
+  border: 10px solid rgb(52, 150, 241);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img h4 {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 150px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./src/assets/img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 20px;
+  height: 100%;
+}
+
+.content-2 h1 {
+  font-family: "Marcellus", serif;
+  color: white;
+  margin-top: 70px;
+  font-size: 70px;
+  text-align: end;
+}
+
+.content-2 p {
+  margin-top: 60px;
+  font-size: 15px;
+  color: white;
+  text-align: end;
+}
+
+.buttons-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.img-2 h4 {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.img-2 img {
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  background-color: rgb(52, 150, 241);
+}
+
+.footer ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer li {
+  list-style: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.footer li:hover {
+  color: rgb(7, 54, 82);
+
   text-decoration: underline;
 }
