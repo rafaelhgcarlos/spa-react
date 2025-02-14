@@ -47,10 +47,10 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4  # Atualizado para v4
         with:
-          name: artifact-name
-          path: ./path-to-artifact
+          name: build-artifact  # Nome do artefato
+          path: './dist'  # Diretório gerado pela build
 
       - name: Deploy to GitHub Pages
         id: deployment
