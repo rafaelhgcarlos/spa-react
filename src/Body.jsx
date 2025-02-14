@@ -19,7 +19,7 @@ function Body() {
           </div>
         </div>
         <div className="img">
-          <img src="./src/assets/img/logo-play.png" alt="Isso é uma imagem" />
+          <img src="../src/assets/img/logo-play.png" alt="Isso é uma imagem" />
           <h4>Powered by: Rafael Gonzaga</h4>
         </div>
       </section>
@@ -27,7 +27,7 @@ function Body() {
       <section className="content">
         <div className="content-2 container">
           <div className="img-2">
-            <img src="./src/assets/img/logo-play.png" alt="" />
+            <img src="../src/assets/img/logo-play.png" alt="" />
             <h4>Powered by: Rafael Gonzaga</h4>
           </div>
           <div className="text-2">
