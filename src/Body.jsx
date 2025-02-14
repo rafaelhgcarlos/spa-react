@@ -1,5 +1,6 @@
 import "./App.css";
 import logoPlay from "./assets/img/logo-play.png";
+import bgImg from "./assets/img/bg.jpg";
 
 function Body() {
   return (
@@ -25,7 +26,7 @@ function Body() {
         </div>
       </section>
 
-      <section className="content">
+      <section className="content" style={{ backgroundImage: `url(${bgImg})` }}>
         <div className="content-2 container">
           <div className="img-2">
             <img src={logoPlay} alt="Isso é uma imagem" />
