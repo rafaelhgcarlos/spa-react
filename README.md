@@ -9,7 +9,7 @@ Este é um projeto de Single Page Application (SPA) desenvolvido para aprender e
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
 - **Vite**: Ferramenta de build moderna que oferece um ambiente de desenvolvimento rápido para aplicações front-end.
 - **JavaScript**: Utilizado para a lógica da aplicação.
-- **CSS**: Para estilização da aplicação (ajuste conforme o que usou).
+- **CSS**: Para estilização da aplicação.
   
 ## Funcionalidades
 
