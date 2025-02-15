@@ -1,11 +1,5 @@
 function Button(values) {
-  const BtName = values.name.map((button, index) => (
-    <button id={button.id} key={index}>
-      {button.name}
-    </button>
-  ));
-
-  return <div className="buttons">{BtName}</div>;
+  return <button id={values.id}>{values.name}</button>;
 }
 
 export default Button;

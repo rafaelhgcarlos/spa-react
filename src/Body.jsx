@@ -16,12 +16,10 @@ function Body() {
             designs, and limitless imagination vibrant realities with inspired
             designs.
           </p>
-          <Button
-            name={[
-              { name: "7 Days Free Trial", id: "bt-trial" },
-              { name: "View Demo", id: "bt-demo" },
-            ]}
-          />
+          <div className="buttons-2 buttons">
+            <Button id="bt-trial" name="7 Days Free Trial" />
+            <Button id="bt-demo" name="View Demo" />
+          </div>
         </div>
         <div className="img">
           <img src={logoPlay} alt="Isso é uma imagem" />
@@ -44,13 +42,9 @@ function Body() {
               designs, and limitless imagination vibrant realities with inspired
               designs.
             </p>
-            <div className="buttons-2">
-              <Button
-                name={[
-                  { name: "7 Days Free Trial", id: "bt-trial" },
-                  { name: "View Demo", id: "bt-demo" },
-                ]}
-              />
+            <div className="buttons-2 buttons">
+              <Button id="bt-trial" name="7 Day Free Trial" />
+              <Button id="bt-demo" name="View Demo" />
             </div>
           </div>
         </div>
