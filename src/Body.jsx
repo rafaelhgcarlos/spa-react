@@ -1,6 +1,7 @@
 import "./App.css";
 import logoPlay from "./assets/img/logo-play.png";
 import bgImg from "./assets/img/bg.jpg";
+import Button from "./Button";
 
 function Body() {
   return (
@@ -15,10 +16,12 @@ function Body() {
             designs, and limitless imagination vibrant realities with inspired
             designs.
           </p>
-          <div className="buttons">
-            <button id="bt-trial">7 Days Free Trial</button>
-            <button id="bt-demo">View Demo</button>
-          </div>
+          <Button
+            name={[
+              { name: "7 Days Free Trial", id: "bt-trial" },
+              { name: "View Demo", id: "bt-demo" },
+            ]}
+          />
         </div>
         <div className="img">
           <img src={logoPlay} alt="Isso é uma imagem" />
@@ -41,9 +44,13 @@ function Body() {
               designs, and limitless imagination vibrant realities with inspired
               designs.
             </p>
-            <div className="buttons buttons-2">
-              <button id="bt-trial">7 Days Free Trial</button>
-              <button id="bt-demo">View Demo</button>
+            <div className="buttons-2">
+              <Button
+                name={[
+                  { name: "7 Days Free Trial", id: "bt-trial" },
+                  { name: "View Demo", id: "bt-demo" },
+                ]}
+              />
             </div>
           </div>
         </div>

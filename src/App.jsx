@@ -5,8 +5,8 @@ import Footer from "./Footer.jsx";
 function App() {
   return (
     <>
-      <Header> </Header>
-      <Body> </Body>
+      <Header></Header>
+      <Body></Body>
       <Footer></Footer>
     </>
   );
